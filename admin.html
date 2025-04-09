@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Pet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">Muy ocupado? Nosotros nos encargamos de tu mascota.</div>
+        <nav>
+            <img class="logoimg" src="Img/logo.png">
+            <div class="logo">My Pet</div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="registro.html">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="search-container">
+            <input type="text" placeholder="Buscar al paseador...">
+            <button>🔍</button>
+        </div>
+    </div>
+
+    <div style="text-align:center">
+        <button class="create-btn">CREAR</button>
+    </div>
+
+    <div class="container">
+        <!-- Tarjeta ejemplo -->
+        <div class="card">
+            <img src="Img/perfil1.png" alt="violeta">
+            <div class="buttons">
+                <button class="btn-delete">ELIMINAR</button>
+                <button class="btn-edit" onclick="editarPerfil()">EDITAR</button>
+            </div>
+            <div class="card-content">
+                <h3>VIOLETA</h3>
+                <div class="rating">★★★★</div>
+                <p>Hola me encantan los perros, me gusta interactuar con ellos, estaré encantada de ayudarte con tus pequeños.</p>
+                <div class="price">$10.000/h</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Img/perfil.png" alt="laura">
+            <div class="buttons">
+                <button class="btn-delete">ELIMINAR</button>
+                <button class="btn-edit" onclick="editarPerfil()">EDITAR</button>
+            </div>
+            <div class="card-content">
+                <h3>LAURA</h3>
+                <div class="rating">★★★★★</div>
+                <p>Hola estoy lista para sacar a pasear a tus amigos de cuatropatas, los cuido, los llevo a trotar durante 1 hora, les doy snack, les doy comida.</p>
+                <div class="price">$9.000/h</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="Img/perfil2.png" alt="jorge">
+            <div class="buttons">
+                <button class="btn-delete">ELIMINAR</button>
+                <button class="btn-edit" onclick="editarPerfil()">EDITAR</button>
+            </div>
+            <div class="card-content">
+                <h3>JORGE</h3>
+                <div class="rating">★★★★★</div>
+                <p>Estoy listo para pasear a tus mascotas, contrátame y me encargaré de darle el mejor paseo a tu mascota.</p>
+                <div class="price">$10.000/h</div>
+            </div>
+        </div>
+
+        <!-- Puedes seguir duplicando las tarjetas con el mismo formato -->
+    </div>
+
+    <footer class="footer">
+        <div class="logo">
+            <img src="Img/logo.png" alt="MyPet Logo">
+        </div>
+        <div class="info">
+            <p>📍 CLL 65 #45 - 58</p>
+            <p>🏢 Edificio Korona del Sol</p>
+            <p>📞 +57 315 309 3225</p>
+            <p>📧 support@mypet.com</p>
+        </div>
+        <div class="links">
+            <a href="#">📖 Contacto</a>
+            <a href="#">📌 Acerca de Nosotros</a>
+            <a href="#">⚖️ Términos de Servicio</a>
+        </div>
+        <div class="social">
+            <p>Síguenos en redes sociales:</p>
+            <a href="#"><img src="Img/instagram.png" alt="Instagram"> @MyPet</a>
+            <a href="#"><img src="Img/facebook.png" alt="Facebook"> MyPet</a>
+            <a href="#"><img src="Img/whatsapp.png" alt="WhatsApp"> Escríbenos</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function editarPerfil() {
+            window.location.href = "perfil.html";
+        }
+    </script>
+    <script src="js/Admin.js"></script>
+</body>
+</html>

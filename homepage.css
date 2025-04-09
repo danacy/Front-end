@@ -1,0 +1,236 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Barra superior */
+.top-bar {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Navegación */
+nav {
+    background: #0073e6;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    color: white;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: left;
+}
+
+nav img{
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Baner */
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: #ffeedd;
+    align-items: center;
+  }
+  
+  .hero-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .hero-text h1 {
+    color: #ff4d4d;
+    font-size: 1.8rem;
+  }
+  
+  .hero-text p {
+    margin: 1rem 0;
+  }
+  
+  .hero-img {
+    flex: 1;
+    min-height: 400px;
+    background: url('Img/HomeImgInicio.png') center/contain no-repeat;
+  }
+  
+  .btn {
+    background-color: #ff9f1c;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn.secondary {
+    background-color: #0077b6;
+  }
+  
+  .servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .box {
+    flex: 1;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .contenido-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .texto-box {
+    flex: 2;
+  }
+  
+  .decorativa {
+    flex: 1;
+    max-width: 120px;
+    height: auto;
+  }
+  
+
+  .decorativa {
+    width: 80px;
+    margin-top: 1rem;
+  }
+  
+  .foto-testimonio {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  
+  .confiable {
+    background-color: #ffe1dc;
+  }
+  
+  .beneficios {
+    background-color: #d6f0ff;
+    text-align: center;
+  }
+  
+  .testimonios {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffeedd;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .stars {
+    font-size: 1.2rem;
+    color: #ffc107;
+  }
+  
+  .novedades {
+    background-color: #fff3e0;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .novedades form {
+    margin: 1rem 0;
+  }
+  
+  .novedades input[type="email"] {
+    padding: 0.7rem;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .novedades button {
+    padding: 0.7rem 1.2rem;
+    background-color: #ff9f1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+ /* Footer */
+.footer {
+    background-color: #0078D7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+}
+.footer .logo img {
+    height: 80px;
+}
+.footer .info, .footer .links, .footer .social {
+    display: flex;
+    flex-direction: column;
+}
+.footer .info p, .footer .links a, .footer .social a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+.footer .social a img {
+    width: 20px;
+    margin-right: 10px;
+}

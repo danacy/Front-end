@@ -1,0 +1,224 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Barra superior */
+.top-bar {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Navegación */
+nav {
+    background: #0078D7;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    color: white;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav img {
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 50px auto;
+    border: 3px solid #ccc;
+}
+
+/* Sección de la imagen */
+.image-section {
+    position: relative;
+}
+
+.image-section img {
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+}
+
+.image-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.image-icons span {
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección del formulario */
+.form-section {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.profile-header img {
+    width: 30px;
+    height: auto;
+}
+
+.profile-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.label {
+    font-weight: bold;
+    color: #ff6600;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    background: #f0f0f0;
+}
+
+.description-box {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.date-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.date-inputs input {
+    width: 45%;
+    text-align: center;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.button {
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 48%;
+    font-size: 16px;
+}
+
+.confirm {
+    background-color: #007bff;
+}
+
+.cancel {
+    background-color: #ff6600;
+}
+
+/* Texto eliminar cuenta */
+.delete-text {
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #0078D7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo img {
+    height: 80px;
+}
+
+.footer .info, .footer .links, .footer .social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .info p, .footer .links a, .footer .social a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social a img {
+    width: 20px;
+    margin-right: 10px;
+}

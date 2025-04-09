@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pet</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">Muy ocupado? Nosotros nos encargamos de tu mascota. 🐾</div>
+        <nav>
+            <img class="logoimg" src="Img/logo.png">
+            <div class="logo">MY PET</div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="registro.html">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="image-section">
+                <img src="Img/perfil.png" alt="Foto de perfil con mascota">
+                <div class="image-icons">
+                    <span class="edit">✎</span>
+                    <span class="delete">🗑</span>
+                </div>
+            </div>
+            
+            <div class="form-section">
+                <div class="profile-header">
+                    <img src="Img/pata.png" alt="Icono de pata">
+                    <span class="profile-title">TU PERFIL</span>
+                </div>
+                
+                <label class="label">📝 DESCRIPCIÓN:</label>
+                <textarea class="description-box" rows="3" readonly>
+Hola, estoy lista para sacar a pasear a tus amigos de cuatro patas, los cuido, los llevo a trotar durante el tiempo que sea, les doy snack, les doy comida.
+                </textarea>
+                
+                <label class="label">📍 UBICACIÓN:</label>
+                <input type="text" placeholder="Coloca tu ubicación aquí...">
+                
+                <label class="label">📞 TELÉFONO:</label>
+                <input type="text" value="300 875 9975">
+                
+                <label class="label">📅 DISPONIBILIDAD:</label>
+                <div class="date-inputs">
+                    <input type="text" placeholder="Desde: __/__/____">
+                    <input type="text" placeholder="Hasta: __/__/____">
+                </div>
+                
+                <label class="label">💰 TU TARIFA:</label>
+                <input type="text" placeholder="$">
+                
+                <div class="buttons">
+                    <button class="button confirm" id="btn-confirm">CONFIRMAR</button>
+                    <button class="button cancel" id="btn-cancel">CANCELAR</button>
+                  </div>
+                  
+                
+                  <p class="delete-text" id="delete-account">¿Deseas eliminar tu cuenta?</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="logo">
+            <img src="Img/logo.png" alt="MyPet Logo">
+        </div>
+        <div class="info">
+            <p>📍 CLL 65 #45 - 58</p>
+            <p>🏢 Edificio Korona del Sol</p>
+            <p>📞 +57 315 309 3225</p>
+            <p>📧 support@mypet.com</p>
+        </div>
+        <div class="links">
+            <a href="#">📖 Contacto</a>
+            <a href="#">📌 Acerca de Nosotros</a>
+            <a href="#">⚖️ Términos de Servicio</a>
+        </div>
+        <div class="social">
+            <p>Síguenos en redes sociales:</p>
+            <a href="#"><img src="Img/instagram.png" alt="Instagram"> @MyPet</a>
+            <a href="#"><img src="Img/facebook.png" alt="Facebook"> MyPet</a>
+            <a href="#"><img src="Img/whatsapp.png" alt="WhatsApp"> Escríbenos</a>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/perfil.js"></script>
+</body>   
+</html>
+
